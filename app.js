@@ -20,31 +20,31 @@ const pad8 = document.getElementById("pad8");
 const pad9 = document.getElementById("pad9");
 
 pad1.addEventListener("click", function () {
-    playPad1sound(); 
+  playPad1sound();
 });
 pad2.addEventListener("click", function () {
-    playPad2sound(); 
+  playPad2sound();
 });
 pad3.addEventListener("click", function () {
-    playPad3sound(); 
+  playPad3sound();
 });
 pad4.addEventListener("click", function () {
-    playPad4sound(); 
+  playPad4sound();
 });
 pad5.addEventListener("click", function () {
-    playPad5sound(); 
+  playPad5sound();
 });
 pad6.addEventListener("click", function () {
-    playPad6sound(); 
+  playPad6sound();
 });
 pad7.addEventListener("click", function () {
-    playPad7sound(); 
+  playPad7sound();
 });
 pad8.addEventListener("click", function () {
-    playPad8sound(); 
+  playPad8sound();
 });
 pad9.addEventListener("click", function () {
-    playPad9sound(); 
+  playPad9sound();
 });
 
 document.addEventListener("keypress", function (event) {
@@ -81,89 +81,89 @@ function playPad1sound() {
   boom.pause();
   boom.currentTime = 0;
   boom.play();
-  pad1.style.animation = "lightUp 500ms";
+  pad1.style.animation = "lightUp 1s";
   setTimeout(() => {
     pad1.style.animation = "";
   }, 500);
   console.log("a pressed");
 }
 function playPad2sound() {
-    clap.pause();
-    clap.currentTime = 0;
-    clap.play();
-    pad2.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad2.style.animation = "";
-    }, 100);
-    console.log("s pressed");
-  }
-  function playPad3sound() {
-    hithat.pause();
-    hithat.currentTime = 0;
-    hithat.play();
-    pad3.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad3.style.animation = "";
-    }, 100);
-    console.log("d pressed");
-  }
-  function playPad4sound() {
-    kick.pause();
-    kick.currentTime = 0;
-    kick.play();
-    pad4.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad4.style.animation = "";
-    }, 100);
-    console.log("f pressed");
-  }
-  function playPad5sound() {
-    openhat.pause();
-    openhat.currentTime = 0;
-    openhat.play();
-    pad5.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad5.style.animation = "";
-    }, 100);
-    console.log("g pressed");
-  }
-  function playPad6sound() {
-    ride.pause();
-    ride.currentTime = 0;
-    ride.play();
-    pad6.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad6.style.animation = "";
-    }, 100);
-    console.log("h pressed");
-  }
-  function playPad7sound() {
-    snare.pause();
-    snare.currentTime = 0;
-    snare.play();
-    pad7.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad7.style.animation = "";
-    }, 100);
-    console.log("j pressed");
-  }
-  function playPad8sound() {
-    tink.pause();
-    tink.currentTime = 0;
-    tink.play();
-    pad8.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad8.style.animation = "";
-    }, 100);
-    console.log("k pressed");
-  }
-  function playPad9sound() {
-    tom.pause();
-    tom.currentTime = 0;
-    tom.play();
-    pad9.style.animation = "lightUp 100ms";
-    setTimeout(() => {
-      pad9.style.animation = "";
-    }, 100);
-    console.log("l pressed");
-  }
+  clap.pause();
+  clap.currentTime = 0;
+  clap.play();
+  pad2.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad2.style.animation = "";
+  }, 100);
+  console.log("s pressed");
+}
+function playPad3sound() {
+  hithat.pause();
+  hithat.currentTime = 0;
+  hithat.play();
+  pad3.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad3.style.animation = "";
+  }, 100);
+  console.log("d pressed");
+}
+function playPad4sound() {
+  kick.pause();
+  kick.currentTime = 0;
+  kick.play();
+  pad4.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad4.style.animation = "";
+  }, 100);
+  console.log("f pressed");
+}
+function playPad5sound() {
+  openhat.pause();
+  openhat.currentTime = 0;
+  openhat.play();
+  pad5.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad5.style.animation = "";
+  }, 100);
+  console.log("g pressed");
+}
+function playPad6sound() {
+  ride.pause();
+  ride.currentTime = 0;
+  ride.play();
+  pad6.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad6.style.animation = "";
+  }, 100);
+  console.log("h pressed");
+}
+function playPad7sound() {
+  snare.pause();
+  snare.currentTime = 0;
+  snare.play();
+  pad7.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad7.style.animation = "";
+  }, 100);
+  console.log("j pressed");
+}
+function playPad8sound() {
+  tink.pause();
+  tink.currentTime = 0;
+  tink.play();
+  pad8.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad8.style.animation = "";
+  }, 100);
+  console.log("k pressed");
+}
+function playPad9sound() {
+  tom.pause();
+  tom.currentTime = 0;
+  tom.play();
+  pad9.style.animation = "lightUp 100ms";
+  setTimeout(() => {
+    pad9.style.animation = "";
+  }, 100);
+  console.log("l pressed");
+}
