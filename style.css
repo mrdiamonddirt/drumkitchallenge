@@ -1,4 +1,8 @@
+:root{
+    --blue: #1e90ff;
+}
 body{
+    background-color: grey;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,8 +17,94 @@ body{
 }
 .pad{
     display: flex;
-    background-color: black;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+    background-color: black;
+}
+#pad1{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad1:hover{
+    background-color: orange;
+}
+#pad2{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad2:hover{
+    background-color: orange;
+}
+#pad3{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad3:hover{
+    background-color: orange;
+}
+#pad4{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad4:hover{
+    background-color: orange;
+}
+#pad5{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad5:hover{
+    background-color: orange;
+}
+#pad6{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad7{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad8{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+#pad9{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+@keyframes lightUp {
+    0%,100%{
+    background-color: var(--blue);
+    }
+    50%{
+    background-color: orange;
+    }    
 }
