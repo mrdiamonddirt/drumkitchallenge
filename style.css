@@ -1,4 +1,18 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#kit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .pad{
+    display: flex;
     background-color: black;
     height: 200px;
     width: 200px;
