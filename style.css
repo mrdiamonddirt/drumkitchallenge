@@ -14,6 +14,17 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+#kit p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    transform: translate(0, 55px );
 }
 .pad {
   display: flex;
@@ -88,6 +99,9 @@ h1 {
   border-radius: 50%;
   background-color: var(--blue);
 }
+#pad6:hover {
+    background-color: orange;
+  }
 #pad7 {
   display: flex;
   height: 100px;
@@ -95,6 +109,9 @@ h1 {
   border-radius: 50%;
   background-color: var(--blue);
 }
+#pad7:hover {
+    background-color: orange;
+  }
 #pad8 {
   display: flex;
   height: 100px;
@@ -102,6 +119,9 @@ h1 {
   border-radius: 50%;
   background-color: var(--blue);
 }
+#pad8:hover {
+    background-color: orange;
+  }
 #pad9 {
   display: flex;
   height: 100px;
@@ -109,6 +129,9 @@ h1 {
   border-radius: 50%;
   background-color: var(--blue);
 }
+#pad9:hover {
+    background-color: orange;
+  }
 @keyframes lightUp {
   0%,
   100% {
